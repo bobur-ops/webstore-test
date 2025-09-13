@@ -11,7 +11,7 @@ export default function Map() {
       </div>
 
       <div
-        className="absolute inset-0 lg:block"
+        className="absolute inset-0 lg:hidden"
         style={{
           clipPath: "polygon(0 0, 100% 5%, 100% 100%, 0% 100%)",
         }}
@@ -58,7 +58,9 @@ export default function Map() {
               <div className="font-normal">alex-trainer</div>
             </div>
 
-            <div className="font-light mt-4">© 1997-2014 WebStore</div>
+            <div className="font-light mt-4 text-foreground-secondary">
+              © 1997-2014 WebStore
+            </div>
           </div>
         </div>
       </div>
