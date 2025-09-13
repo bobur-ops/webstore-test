@@ -1,0 +1,21 @@
+@import "./assets/fonts/roboto-slab/index.css";
+@import "./assets/fonts/roboto/index.css";
+@import "tailwindcss";
+
+@theme {
+  --font-roboto-slab: "RobotoSlab", serif;
+  --font-roboto: "Roboto", sans-serif;
+
+  --color-accent: #cb003d;
+  --color-foreground-secondary: #515359;
+  --color-foreground: #1a1a1a;
+  --color-foreground-black: #3a3c40;
+
+  --color-background-secondary: #e9e9e7;
+}
+
+@layer base {
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+}
