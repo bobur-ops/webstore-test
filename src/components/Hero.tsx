@@ -2,13 +2,13 @@ import { Button } from "./Button";
 
 export default function Hero() {
   return (
-    <div className="h-[700px] xl:h-[850px] mt-4 relative">
+    <div className="h-[700px] xl:h-[700px] mt-4 relative">
       <div
         className="absolute inset-0 hidden lg:block"
         style={{
           background:
             "radial-gradient(circle,rgba(111, 112, 130, 1) 0%, rgba(81, 83, 89, 1) 100%)",
-          clipPath: "polygon(0 0, 100% 20%, 100% 90%, 0% 100%)",
+          clipPath: "polygon(0 0, 100% 10%, 100% 85%, 0% 100%)",
         }}
       ></div>
 
